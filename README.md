@@ -45,17 +45,17 @@ It allows users to search for movies, view details, and **play official YouTube 
 
 ---
 
-##  Setup & Run Locally
+## ⚙️ Setup & Run Locally
 
 ```bash
-# Clone the repository
+# 1️⃣ Clone the repository
 git clone https://github.com/Durgarao3/Movie-app.git
 cd Movie-app
 
-# Install dependencies
+# 2️⃣ Install dependencies
 npm install
 
-# Start the development server
+# 3️⃣ Start the development server
 npm run dev
 ```
 
