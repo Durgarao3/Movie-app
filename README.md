@@ -59,12 +59,35 @@ npm install
 npm run dev
 ```
 
-## Tools & Tech
+## 🎨 Tailwind CSS Setup (if you are starting fresh)
+
+If you cloned this repo, Tailwind is already set up.
+But if you’re starting from scratch:
+
+```bash
+# Install Tailwind CSS & dependencies
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+## 🔑 TMDB API Setup
+
+This app uses TMDB API for fetching movie data and YouTube trailer links.
+1. Sign up at TMDB Developer Portal
+2. Create a new API key
+3. Create a .env file in your project root and add:
+
+```bash
+VITE_TMDB_API_KEY=your_tmdb_api_key_here
+```
+
+## 🛠 Tools & Tech
 
 1. React — Component-based UI
 2. Tailwind CSS — Utility-first styling
-3. Vite (or your bundler) — Fast build tool
-4. TMDB API — Movie search & data
+3. Vite — Lightning-fast build tool
+4. TMDB API — Movie search & trailer data
+5. YouTube Embed — Play trailers directly in the app
 
 ## Environment Notes
 
